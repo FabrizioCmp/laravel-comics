@@ -9,8 +9,6 @@
 </head>
 <body>
     @include("partials.header")
-    {{-- nello yeld verrà inserito il contetnuto scritto nella section content(in questo caso nella pagina secondPage) --}}
-    @yield("content")
     <h1>content</h1>
     @include("partials.footer")
 </body>
