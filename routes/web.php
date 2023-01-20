@@ -14,14 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    $arrayDB = config("tempdb");
+    return view('homepage',[
+        "fumetti" => $arrayDB
+    ]);
 });
 
-// Route::get("/mypage", function(){
-//     $arrayFromConfig = config("tempdb");
-
-//     return view("mypage",[
-//         "array" => $arrayFromConfig
-//     ]);
-// });
 
