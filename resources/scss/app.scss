@@ -1,0 +1,81 @@
+@import '~bootstrap/scss/bootstrap';
+
+// CSS for header.blade.php **************************************************
+.img1{
+    width: 300px;
+}
+
+.bunner_little{
+    background-color: #0282F9;
+    height: 20px;
+    .bunner_box{
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        color: white;
+        font-size: 10px;
+    }
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    height: 150px;
+}
+
+.img_logo_nav{
+    height: 70px;
+}
+
+.menu_list{
+    list-style: none;
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.header_img{
+    height: 300px;
+    background-image: url("../imgs/jumbotron.jpg");
+    
+}
+
+//CSS for footer.blade.php **************************************************
+
+footer{
+    background-image: url("../imgs/footer-bg.jpg");
+}
+
+.foter_link_section{
+    width: 40%;
+    margin: 1rem 0;
+}
+.foter_logo_section{
+    width: 60%;
+    background-image: url("../imgs/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer_link_list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+    a{
+        text-decoration: none;
+        color: gray;
+        font-size: 10px;
+    }
+}
+
+.footer_copyright{
+    font-size: 10px;
+    color: grey;
+}
