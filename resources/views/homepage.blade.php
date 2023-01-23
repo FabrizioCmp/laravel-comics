@@ -1,13 +1,3 @@
-{{-- 
-
-<body>
-    {{-- il . sostituisce / nel dichiarare il percorso --}}
-{{-- @include("partials.genericPartial") --}}
-{{-- <ul>
-        @foreach ($array as $element)
-        <li>{{$element["chiave1"]}}</li>
-        @endforeach
-    </ul> --}}
 
 
 @extends('layouts.generalLayout')
@@ -26,6 +16,11 @@
                         </div>
                     </div>
                 @endforeach
+            </div>
+        </div>
+        <div class="bunner">
+            <div class="container">
+                
             </div>
         </div>
     </div>
